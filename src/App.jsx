@@ -177,15 +177,16 @@ export default function App() {
         {/* Login */}
 
         <Route
-  path="/login/*"
-  element={<Login />}
-/>
+          path="/login"
+          element={<Login />}
+        />
+
         {/* Signup */}
 
         <Route
-  path="/signup/*"
-  element={<Signup />}
-/>
+          path="/signup"
+          element={<Signup />}
+        />
 
         {/* Profile */}
 
