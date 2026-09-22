@@ -58,15 +58,13 @@ export default function Signup() {
 
           {/* SIGNUP CARD */}
           <div className="bg-white/70 rounded-3xl p-4 sm:p-5 border border-[#C9972B]/25 shadow-xl">
-
-            <SignUp
-              routing="path"
-              path="/signup"
-              signInUrl="/login"
-               signInFallbackRedirectUrl="/login"
-  signUpFallbackRedirectUrl="/"
-              appearance={explorerIQAppearance}
-            />
+<SignUp
+  routing="path"
+  path="/signup"
+  signInUrl="/login"
+  fallbackRedirectUrl="/"
+  appearance={explorerIQAppearance}
+/>
 
           </div>
 
